@@ -4,15 +4,26 @@ function myFunction() {
 
 let circle = 50;
 
+let circle={
+    x = 30;
+    y = 200;
+    width = 85;
+    length = 85;
+
+
+
+}
+
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
 }
 
 function draw() {
   background(250, 100, 100);
   fill(250, 200, 200);
-  ellipse(circle, 200, 55, 55);
-  circle = circle + 2;
+  ellipse(circle, 200, 85, 85);
+  circle = circle + 5;
 }
 function date() {
   document.write(Date());
