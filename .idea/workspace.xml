@@ -53,10 +53,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="68" />
     <option name="y" value="23" />
-    <option name="width" value="1226" />
-    <option name="height" value="777" />
+    <option name="width" value="1244" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -78,6 +78,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">

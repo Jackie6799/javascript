@@ -14,3 +14,6 @@ function draw() {
   ellipse(circle, 200, 55, 55);
   circle = circle + 2;
 }
+function date() {
+  document.write(Date());
+}
