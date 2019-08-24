@@ -11,6 +11,8 @@ let circle = {
 
 };
 
+let speed = 5;
+
 function setup() {
   createCanvas(800, 800);
 }
@@ -18,11 +20,18 @@ function setup() {
 function draw() {
   background(250, 400, 100);
   fill(250, 200, 200);
-  circle.x = random(0,600);
-  circle.y = random(0,600);
+//  circle.x = random(0,600);
+//  circle.y = random(0,600);
   ellipse(circle.x, circle.y, circle.width, circle.width);
-  circle.x = circle.x + 5;
+
+  if (circle.x > width) {
+
+        speed = -5;
+
+                     };
+  circle.x = circle.x + speed;
 }
 function date() {
   document.write(Date());
 }
+
