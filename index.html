@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta charset="utf-8" />
-  </head>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8" />
+</head>
 
-  <body>
-    The content of the document......
-    <h2>JavaScript Alert</h2>
+<body>
+The content of the document......
+<h2>JavaScript Alert</h2>
 
-    <form id="frm1" action="/action_page.php">
-      First name: <input type="text" name="fname" value="Donald" /><br />
-      Last name: <input type="text" name="lname" value="Duck" /><br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname" value="Donald" /><br />
+  Last name: <input type="text" name="lname" value="Duck" /><br /><br />
+  <input type="submit" value="Submit" />
+</form>
 
-    <p>Click "Try it" to display the number of elements the form:</p>
+<p>Click "Try it" to display the number of elements the form:</p>
 
-    <div>
-      <button onclick="myFunction()">Try it</button>
-    </div>
-    <div>
-      <script src="script.js"></script>
-    </div>
-    <div>
-      <button onclick="date()">
-        What is the time?
-      </button>
-    </div>
-    <div>
-      <script src="script.js"></script>
-    </div>
-  </body>
+<div>
+  <button onclick="myFunction()">Try it</button>
+</div>
+<div>
+  <button onclick="date()">Date</button>
+</div>
+
+<button onclick="history.go(0);">
+  Move circle
+</button>
+
+<div>
+  <script src="script.js"></script>
+</div>
+
+
+<div>
+  <script src="bubble.js"></script>
+
+</div>
+
+<div>
+<script src="bubble2.js">
+
+</script></div>
+<script>function date() {
+  document.write(Date());
+}</script>
+
+</body>
 </html>
