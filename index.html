@@ -5,92 +5,60 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+   
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="utf-8" />
-    <style>
-      div {
-        background-color: lightgrey;
-        width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-      }
-      ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-    </style>
+   
   </head>
 
   <body>
     <ul>
-<li><a href="index.html">Home Page</a></li>
-    <li><a href="page2.html">Second Page</a></li>
-  <li><a href="index.html">Home Page</a></li>
-    
-    
-
+      <li><a class= "active" href="index.html">Home Page</a></li>
+      <li><a href="page2.html">Second Page</a></li>
+      <li><a href="page3.html">third Page</a></li>
     </ul>
-   
+  
     
-      
-
-      <h2>JavaScript Alert</h2>
-
-      <form id="frm1" action="/action_page.php">
-        First name: <input type="text" name="fname" value="Donald" /><br />
-        Last name: <input type="text" name="lname" value="Duck" /><br /><br />
-        <input type="submit" value="Submit" />
-      </form>
-
-      <p>Click "Try it" to display the number of elements the form:</p>
+  
+  
+    <h2>JavaScript Alert</h2>
+  
+    <form id="frm1" action="/action_page.php">
+      First name: <input type="text" name="fname" value="Donald" /><br />
+      Last name: <input type="text" name="lname" value="Duck" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  
+    <p>Click "Try it" to display the number of elements the form:</p>
     </div>
-
+  
     <div>
       <button onclick="myFunction()">Try it</button>
     </div>
     <div>
       <button onclick="date()">Date</button>
     </div>
+  
+  
+  
+  
+    <script src="script.js"></script>
 
-    
-
-    
-      <script src="script.js"></script>
     </div>
     <script src="bubble.js"></script>
-
+    <script src="random.js"></script>
+  
     <div><button onclick="history.go(0);">
-      Move circle
-    </button>
-      
+        Refresh Page!
+      </button>
+  
     </div>
-
+  
     <div>
       <script src="bubble2.js"></script>
     </div>
+
     <script>
       function date() {
         document.write(Date());
