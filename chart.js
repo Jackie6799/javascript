@@ -6,21 +6,8 @@ var myChart = new Chart(ctx, {
     datasets: [
       {
         label: "Votes",
-        data: [12, 13, 3, 5, 2, 3],
-
-        borderWidth: 1
+        data: [12, 13, 3, 5, 14, 12]
       }
     ]
-  },
-  options: {
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true
-          }
-        }
-      ]
-    }
   }
 });
