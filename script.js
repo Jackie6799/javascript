@@ -4,11 +4,12 @@ function myFunction() {
 
 let circle = {
   x: 30,
-  y: 50,
+  y: 80,
   width: 85
 };
 
 let speed = 5;
+let pos = 1;
 
 function setup() {
   createCanvas(800, 800);
@@ -24,5 +25,21 @@ function draw() {
   if (circle.x > width) {
     speed = -5;
   }
+  if (circle.x < 0) {
+
+  speed = 5
+
+  }
+  if (circle.y > width) {
+
+  pos = -1
+
+  }
+  if (circle.y < 0) {
+
+  pos = 1
+
+  }
   circle.x = circle.x + speed;
+  circle.y += pos;
 }

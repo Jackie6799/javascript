@@ -4,6 +4,8 @@
    width: 85
  };
 
+ let r = 20;
+
  function setup() {
    createCanvas(800, 600);
  }
@@ -17,5 +19,8 @@
 
    }
 
+r =  Math.random();
 
-console.log(choice.x);
+
+
+console.log(r);
