@@ -1,7 +1,7 @@
 
 let bubbles = [];
 let b;
-let h;
+
 let s = 3;
 let pos = 1;
 
@@ -17,7 +17,7 @@ function setup() {
 
 }
 
-function mousePressed() {
+function mouseDragged() {
 
 // for (let i = 0; i < bubbles.length; i++) {
 // bubbles[i] = new Bubble(mouseX, mouseY, 40);
